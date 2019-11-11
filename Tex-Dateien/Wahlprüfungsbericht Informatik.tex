@@ -1,0 +1,297 @@
+\documentclass[a4paper]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+%\usepackage{array}
+\usepackage{enumitem}
+%\usepackage{pdfpages}
+%\usepackage{listings}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+%\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[ttdefault=true]{AnonymousPro}
+
+\renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
+
+\usepackage{geometry}
+\geometry{margin=2cm}
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0em}
+
+\newcommand{\fullcheck}{\raisebox{-.8\dp\strutbox}{\includegraphics[width=14pt]{Check.pdf}}}
+\newcommand{\semicheck}{\raisebox{-.8\dp\strutbox}{\includegraphics[width=14pt]{Semicheck.pdf}}}
+\newcommand{\nocheck}{\raisebox{-.8\dp\strutbox}{\includegraphics[width=14pt]{Nocheck.pdf}}}
+\newcommand{\dontknow}{\raisebox{-.8\dp\strutbox}{\includegraphics[width=14pt]{Dontknow.pdf}}}
+\newcommand{\notrev}{\raisebox{-.8\dp\strutbox}{\includegraphics[width=14pt]{Notrev.pdf}}}
+\newcommand{\sym}[1]{
+\ifcase#1 \item[$\Box$]
+\or \item[\fullcheck]
+\or \item[\semicheck]
+\or \item[\nocheck]
+\or \item[\dontknow]
+\or \item[\notrev]
+\else \item[$\Box$]
+\fi}
+
+\usepackage[colorlinks=true]{hyperref}
+
+
+%=============================VARIABLEN====================================
+\newcommand{\fachschaft}{Informatik}
+\newcommand{\gremium}{FSV} %Bei der Wahl gewähltes Gremium.
+\newcommand{\wahltermin}{17. -- 19. Juni 2019}
+\newcommand{\sitzungstermin}{08. Juli 2019}
+\newcommand{\vorsitz}{Moritz Krips}
+\newcommand{\anwesende}{\vorsitz\ (Vorsitz), Christoph Heinen, Max Dietrich, Thi Phuong Ha Nguyen, Melanie Schäffler}
+\newcommand{\berichterstatter}{Benedikt Bastin} %Bevollmächtigte Vertretung der geprüften Fachschaft.
+%==========================================================================
+
+
+\title{Wahlprüfbericht}
+\subtitle{\gremium-Wahl \fachschaft, \wahltermin}
+\author{Wahlprüfungsausschuss der Fachschaftenkonferenz (WPAF)}
+\date{\sitzungstermin}
+
+\begin{document}
+
+\maketitle
+
+Der Wahlprüfungsausschuss der Fachschaftenkonferenz (WPAF) hat am \sitzungstermin \ die Fachschaftswahl der Fachschaft \fachschaft\ geprüft.
+
+Anwesend waren: \anwesende.
+
+Berichterstatter: \berichterstatter
+
+\textbf{Legende:}
+
+\begin{tabular}{|c|l|}\hline
+\fullcheck & In Ordnung \\\hline
+\semicheck & Teilweise / kleinere Mängel \\\hline
+\nocheck & Fehlt / Fehlerhaft\\\hline
+\dontknow & Unbekannt / Unklar\\\hline
+\notrev & Nicht zutreffend / Nicht relevant\\\hline
+\end{tabular}
+
+
+\section{Dokumente und Unterlagen}
+
+Die folgenden Dokumente und Unterlagen wurden zugesandt:
+%=============================================================
+%== Befehl /sym{n} erstellt die in der Legende angegebenen Symbole. ========
+%== n=1: In Ordnung, n=2: Teilweise / kleinere Mängel, n=3: Fehlt / Fehlerhaft ==
+%== n=4: Unbekannt / Unklar, n=5: Nicht zutreffend / Nicht relevant =========
+%=============================================================
+
+\begin{itemize}[label=$\Box$]
+\sym{2} Wahlbekanntmachung (Kopie)
+\sym{1} Sitzungseinladung zur Wahl des Wahlleiters
+\sym{1} Protokolle
+
+\begin{itemize}[label=$\Box$]
+\sym{1} Wahl des Wahlleiters und des Wahlausschusses
+\sym{1} Festlegung des Wahltermins
+\sym{1} Wahlausschusssitzungen
+\sym{5} Protokoll der Wahlvollversammlung
+\sym{1} konstituierende Sitzung nach der Wahl
+\end{itemize}
+
+\sym{1} Anträge zum Wahlverfahren (Originale)
+\sym{1} Mitgliederliste von FSV und FSR zum Zeitpunkt der Wahl des Wahlausschusses
+\sym{1} Liste der an der Auszählung beteiligten Wahlhelferinnen und Wahlhelfer
+\sym{1} Wahlergebnis (Kopie)
+\sym{3} Bekanntmachung der Wahlvorschläge (Kopie)
+\sym{1} Urnenbuch (Original)
+\sym{1} Stimmzettel (Originale)
+\sym{1} Wählerverzeichnis (Original)
+\sym{1} Wahlvorschläge und Kandidaturen (Originale, ALLE, auch abgelehnte)
+\sym{5} Briefwahlanträge (Originale)
+\end{itemize}
+Die Wahlbekanntmachung wurde dem WPAF nicht vorgelegt, konnte aber über die Webseite der Fachschaft abgerufen werden.
+
+Briefwahlanträge wurden nicht übermittelt, daher ist davon auszugehen, dass keine vorlagen.
+
+\section{Termine und Fristen}
+Die folgenden Termine und Fristen wurden eingehalten:
+
+\begin{itemize}[label=$\Box$]
+\sym{1} Festlegung Wahltermin 30 Tage vor Wahl
+\sym{1} Wahl Wahlleiter und Wahlausschuss 30 Tage vor Wahl
+\sym{1} Konstituierende Wahlausschusssitzung 25 Tage vor Wahl
+\sym{1} Festlegung Termine, Fristen und Orte 25 Tage vor Wahl
+\sym{4} Übernahme Wählendenverzeichnis 19 Tage vor Wahl
+\sym{1} Wahlbekanntmachung 18 Tage vor Wahl
+\sym{1} Auslage Wählendenverzeichnis an mindestens 3 Werktagen vor Frist
+\sym{1} Frist für Kandidaturen und Anträge 13 Tage vor Wahl bis 10 Tage vor Wahl
+\sym{1} Konstituierende FSV-Sitzung 5 bis 14 Tage nach Wahl, oder im Fall einer Wahl-Vollversammlung sofort
+\end{itemize}
+
+Wählendenverzeichnis wurde laut Aussage von \berichterstatter\ direkt bei der Verwaltung der Universität abgeholt - das Datum lässt sich so nicht nachprüfen.
+
+\section{Wahlausschuss}
+\begin{itemize}[label=$\Box$]
+	\sym{1} Die Wahl des Wahlausschusses durch FSV oder FSR wurde in der Sitzungseinladung mit einem Verweis auf § 26 Abs. 2 FSWO angekündigt
+	\sym{1} Der Wahlausschuss besteht aus Wahlleitung und mindestens zwei weiteren Mitgliedern
+\end{itemize}
+
+\section{Wahlverfahren}
+\begin{itemize}[label=$\Box$]
+	\sym{1} Das Wahlverfahren steht im Einklang mit der Fachschaftssatzung
+	\sym{5} Anträge zum Wahlverfahren lagen nicht vor
+\end{itemize}
+ODER
+\begin{itemize}[label=$\Box$]	
+	\sym{3} Anträge zum Wahlverfahren wurden ordnungsgemäß behandelt
+\end{itemize}
+Gemäß § 26 II FSWO wurde ein Antrag auf personalisierte Verhältniswahl eingereicht. Dieser Antrag muss vor der Wahl eines Wahlausschusses eingereicht werden, was im vorliegenden Fall korrekt war. In der FSV-Sitzung vom 16.05.2019 wurde der Antrag mit der Begründung abgelehnt, dass zum aktuellen Zeitpunkt weder die Anzahl an Personen, die für den Antrag nötig sind, bestimmbar seien, noch überprüft werden kann, ob die Antragenden Wahlberechtigte sind.
+Diese Begründung ist unserer Ansicht nach falsch. Laut § 26 II FSWO muss dieses Anliegen lediglich vor der Wahl des Wahlausschusses eingereicht sein. Die Überprüfung des Antrags kann vom Wahlausschuss bzw. der FSV nach Erhalt des Wählendenverzeichnisses noch vorgenommen und vor der Verabschiedung der Wahlbekanntmachung abgestimmt werden. Das Wählerverzeichnis muss bis zum 19. Tag vor der Wahl abgeholt werden und die Wahlbekanntmachung erst spätestens bis zum 18. Tag veröffentlicht werden. Somit hätte innerhalb der Fristen durchaus eine Prüfung des Antrags vonstatten gehen können.
+
+\section{Kandidaturen}
+\begin{itemize}[label=$\Box$]
+\sym{1} Kandidierende sind wahlberechtigt und wählbar
+\sym{1} Kandidaturen sind ordnungsgemäß
+\end{itemize}
+
+Kandidaturen wurden stichprobenartig überprüft.
+
+% Bei 13 zugelassenen Wahlbewerbungen mit insgesamt 13 Kandidierenden finden die Regelungen zum Wahlverfahren in Sonderfällen keine Anwendung.
+
+% Die Kandidatin \textit{NAME NAME} ist nicht im Wählerverzeichnis zu finden.
+
+% Bei \textit{NAME NAME} fehlt die Unterschrift zur Zustimmung zur Aufnahme in den Wahlvorschlag. Für den WPAF ist der Wille zur Kandidatur damit nicht nachzuvollziehen.
+
+% Bei \textit{NAME NAME} ist der Unterstützer \censor{GEHEIM GEHEIM} nicht im Wählerverzeichnis zu finden. Somit fehlt eine Unterstützungsunterschrift.
+
+% Bei den Listenplätzen A und B fehlt bei den Adressen die Angabe von Postleitzahl und Ort.
+
+% Bei allen Kandidaturen fehlen Anschrift und E-Mail-Adresse. Bei allen Kandidaturen bis auf eine fehlt die Matrikelnummer. Felder für Anschrift und E-Mail-Adresse sind in der Kandidaturvorlage des Wahlausschusses allerdings auch nicht enthalten.
+
+% Bei allen Kandidaturen beziehen sich wahlweise die Kandidatur, die Erklärung, die Unterstützungsunterschriften oder diverse Kombinationen davon auf eine Wahl "`vom DD. - DD. MMMM YYYY"'. Der WPAF geht hierbei, da es sich um einen Vordruck handelt, der teilweise handschriftlich korrigiert wurde, von Erklärungsirrtümern aus.
+
+% Die Festlegung des Wahlverfahrens in Sonderfällen wird in der Bekanntmachung der Wahlvorschläge erwähnt. Ein dediziertes Protokoll mit Zulassung der Wahlvorschläge und Festlegung des Wahlverfahrens fehlt.
+
+% Ein Protokoll mit der Festlegung des Wahlverfahrens im Sonderfall ist nicht vorhanden.
+
+\section{Wahlunterlagen}
+\begin{itemize}[label=$\Box$]
+\sym{2} Urnenbuch korrekt geführt
+\sym{1} Stimmzettel enthalten alle notwendigen Daten und Ankreuzfelder
+\end{itemize}
+
+Die Rücknahme der Urne sowie die Entsiegelungen wurden nicht dokumentiert.
+
+% Das Urnenbuch wurde lediglich mit Bleistift abgeschlossen. Außerdem fehlen die Kennzeichnung als Urnenbuch und die Bezeichnung der Wahl.
+
+% Ein Urnenbuch ist nicht vorhanden.
+
+% Auf dem Stimmzettel ist ein falsches zu wählendes Organ angegeben. 
+
+% Die Reihung der Kandidierenden ist nicht alphabetisch. 
+
+% Die Zusammenfassung aller eingereichten Kandidaturen zu einer gemeinsamen Liste durch den Wahlausschuss ist nicht statthaft.
+
+
+\section{Rahmenbedingungen}
+\begin{itemize}[label=$\Box$]
+
+\sym{1} Kandidierende sind weder Wahlausschussmitglieder noch an der Auszählung beteiligte Wahlhelfende
+\sym{1} Wahlbekanntmachung enthält alle vorgeschriebenen Inhalte
+\sym{1} Korrekte Daten in Wahlbekanntmachung
+\sym{1} Stimmzettel wurden korrekt ausgezählt
+\sym{1} Wahlergebnis enthält alle vorgeschriebenen Inhalte
+\sym{1} Wahlergebnis wurde korrekt festgestellt (Sitze, Verfahren)
+\end{itemize}
+
+%In der Wahlbekanntmachung fehlt der Hinweis auf die Möglichkeit eines Antrags auf Briefwahl, sowie die bei der Briefwahl zu beachtenden Fristen.
+
+%In der Wahlbekanntmachung ist für die Einreichungsfrist der Wahlbewerbungen keine Uhrzeit angegeben. Üblicherweise wird eine Uhrzeit angegeben.
+
+% Nach § 8 Abs. 1 FSWO sind Wahlvorschläge "`dem Wahlleiter einzureichen"'.
+
+% In der Wahlbekanntmachung enthält die Darstellung des Wahlsystems eine falsche Angabe ("`die Zahl der Sitze in der Fachschaftsvertretung vermindert sich entsprechend."').
+
+% Bei der Neuauszählung der Stimmzettel wurde eine vom Wahlausschuss dem Kandidaten \textit{NAME NAME} zugerechnete Stimme vom WPAF als ungültig eingestuft, da neben der Stimmabgabe ein Zusatz enthalten war.
+
+% Im Wahlergebnis fehlen die Zahl der ungültigen Stimmen sowie die Zahl der auf jede Liste entfallenden Stimmen.
+
+% Die Feststellung über die gewählten Personen im Wahlergebnis ist falsch. Nach Anwendung des D'Hondt-Verfahrens entfallen auf die beiden Erstplatzierten Listen je 2 Sitze, auf Positionen 3 -- 9 jeweils 1 Sitz, auf die übrigen Listen 0 Sitze. Die Plätze 10 und 11 wären somit nicht gewählt.
+
+% Die Wahlbekanntmachung enthält nicht explizit einen Hinweis darauf, dass nur wählen kann, wer im Wählerverzeichnis eingetragen ist.
+
+% In der Wahlbekanntmachung sind A zu wählende Mitglieder angegeben. Zu wählen sind jedoch lediglich B Personen.
+
+% In der Bekanntgabe des Wahlergebnisses fehlen die Angabe darüber, welche Kandidierenden gewählt sind und welche nicht. 
+
+% In der Bekanntgabe des Wahlergebnisses fehlt der Hinweis auf die vorgeschriebene Form des Einspruchs gegen das Wahlergebnis und den Wahlprüfungsausschuss der Fachschaftenkonferenz (nicht Wahlausschuss) als zuständige Stelle.
+
+% In der Wahlbekanntmachung fehlen die Bezeichnung des zu wählenden Organs sowie die Zahl der zu wählenden Mitglieder.
+
+% Das für die Entgegennahme der Wahlvorschläge zuständige Organ ist falsch angegeben.
+
+% Die Darstellung des Wahlsystems nach § 3 FSWO besteht lediglich aus dem Verweis auf § 3 FSWO.
+
+% Die Zahl der zu wählenden Mitglieder ist nicht "`mindestens A"', sondern genau A.
+
+% Die Frist für die Einreichung der Wahlvorschläge ist in der Wahlbekanntmachung falsch angegeben.
+
+% Die Briefwahlfrist ist in der Wahlbekanntmachung nicht korrekt angegeben.
+
+% Das für die Entgegennahme der Wahlvorschläge zuständige Organ ist der Wahlleiter, nicht der Wahlausschuss.
+
+% Der Hinweis auf die Mindestanforderungen eines Wahlvorschlags nach § 8 FSWO ist veraltet und enthält daher inkorrekte Informationen.
+
+% Das Wählerverzeichnis wurde nicht wie angegeben auf dem Stand des Sommersemesters 2014 erstellt, sondern 2015.
+
+% Die A als ungültig eingestuften Stimmzettel sind gemäß § 13 Abs. 6 FSWO als Listenstimmen zu behandeln.
+
+% Das vom Wahlausschuss scheinbar beschlossene Wahlverfahren (Listenwahl) wurde nicht korrekt angewandt. Beim vom Wahlausschuss scheinbar beschlossenen Wahlverfahren handelt es sich darüber hinaus nicht um ein Mehrheitswahlverfahren (§ 9 FSWO). Die korrekte Anwendung und Auswertung des Listenwahlverfahrens hätte eine andere Sitzverteilung als Ergebnis als die Anwendung und Auswertung einer Mehrheitswahl. Es wurde allerdings auch keine Mehrheitswahl durchgeführt.
+
+% In der Wahlbekanntmachung ist ein falscher Stichtag für die Wahlberechtigung angegeben.
+
+
+\section{Briefwahl}
+\begin{itemize}[label=$\Box$]
+\sym{1} Briefwahlanträge lagen nicht vor.
+\end{itemize}
+
+ ODER
+ 
+\begin{itemize}[label=$\Box$]
+\sym{5} Briefwahlanträge wurden ordnungsgemäß behandelt.
+\end{itemize}
+
+% Der WPAF geht davon aus, dass keine Briefwahlanträge vorlagen.
+
+
+\section{Weitere Anmerkungen}
+Das Wahlergebnis wurde laut dem \berichterstatter\ unmittelbar nach der Wahl ausgezählt, jedoch erst zwei Tage später veröffentlicht. 
+
+Die beim WPAF eingegangene Anfechtung der Wahl ist ungültig, da der Anfechtende nicht wahlberechtigt ist. Der WPAF hat sich dennoch entschlossen, auf Grundlage der aufgezeigten Mängel die Wahl zu überprüfen.
+
+Der WPAF hat den eingereichten Antrag zum Wahlverfahren nachträglich geprüft. Dieser ist nicht gültig, da nur 2 Wahlberechtigte unterschrieben haben, obwohl mindestens 10 nötig gewesen wären. Einen Einfluss auf das Wahlergebnis hatte die inkorrekte Behandlung dieses Antrages daher nicht.  
+
+\section{Fazit}
+
+% Die fehlende Unterschrift der Kandidatin \textit{NAME NAME} ist nur dann schwerwiegend, wenn kein Wille zur Kandidatur vorhanden war. Die Kandidatin und ggf. weitere Zeugen sind zu befragen. Falls kein Wille zur Kandidatur vorhanden war, ist die Wahl ohne Berücksichtigung dieser Kandidatin ab dem Zeitpunkt der Zulassung der Wahlbewerbungen zu wiederholen.
+
+% Die nicht im Wählerverzeichnis auffindbaren Unterstützungen der Kandidatin \textit{Maria NAME NAME} sind nicht als schwerwiegend einzustufen, da bei einer entsprechenden Beanstandung durch den Wahlausschuss höchstwahrscheinlich je eine weitere Unterstützungsunterschrift beigebracht worden wäre.
+
+% Der fehlende Hinweis auf die Möglichkeit der Briefwahl sowie die zu beachtenden Fristen in der Wahlausschreibung stellt einen erheblichen Mangel der Wahlausschreibung dar. Da bei Fachschaftswahlen in der Regel seltenst Briefwahl beantragt wird und davon auszugehen ist, dass Personen, die ihre Stimme nicht persönlich abgeben konnten, sich im Zweifelsfall bei der Wahlleitung nach Alternativmöglichkeiten erkundigt hätten, stuft der WPAF diesen Mangel jedoch nicht als schwerwiegend ein, sofern nicht Wahlberechtigten explizit die Möglichkeit der Briefwahl verweigert wurde. Hierfür gibt es jedoch keine Indizien.
+
+% Die Mängel bei der Wahlsicherung (Feststellung der Unversehrtheit der Siegel, Unterschriften der Wahlhelfenden) werden bemängelt, haben sich jedoch höchstwahrscheinlich nicht auf das Ergebnis der Wahl ausgewirkt und sind daher nicht schwerwiegend.
+
+% Die Aufstellung des Endergebnisses ist fehlerhaft und daher gemäß § 16 Abs. 4 FSWO zu wiederholen.
+
+Es wurde ein schwerwiegender Mangel bei der Behandlung eines Antrages auf personalisierte Verhältniswahl festgestellt. Da dieser Antrag jedoch ungültig war, hatte dies keinen Einfluss auf die Sitzverteilung. Da die Wahl sonst weitestgehend korrekt durchgeführt wurde, sieht der WPAF keinen Anlass, eine Wiederholung zu empfehlen. Der WPAF weist darauf hin, gerade Anträge zum Wahlverfahren der FSWO entsprechend zu prüfen und im Zweifelsfall das FSK anzurufen.
+% Es wurden bei der Durchführung der Wahl keine Mängel festgestellt, aufgrund derer die Wahl ganz oder teilweise für ungültig erklärt werden müsste. Bei der Wahlsicherung werden die fehlenden Unterschriften der Wahlhelfenden gemäß § 12 Abs. 3 FSWO sowie das fehlende Protokoll gemäß § 12 Abs. 6 FSWO bemängelt. Eine Auswirkung auf die Sitzverteilung lässt sich jedoch nicht feststellen.
+
+% Aufgrund der erheblichen Mängel im Wahlverfahren (fehlende Kandidaturen, Wahldurchführung, Besetzung des Wahlaussschusses, \dots) empfiehlt der Wahlprüfungsausschuss dringend, die  gesamte Wahl für ungültig zu erklären (§ 16 Abs. 5 FSWO). Die alte FSV müsste dann unverzüglich einen neuen Wahltermin festlegen und einen Wahlausschuss wählen.
+
+% Das fehlende Protokoll zur Entscheidung über die Gültigkeit der Wahlvorschläge (§ 8 Abs. 6 FSWO) und zur Festlegung des Wahlverfahrens im Sonderfall (§ 9 Abs. 1 FSWO) wird bemängelt. Da offenbar dennoch ein geeignetes Wahlverfahren angewendet wurde und alle Wahlvorschläge, die keine groben Mängel aufweisen, an der Wahl teilnehmen durften, ist dies nicht schwerwiegend.
+
+
+\vspace{1em}
+gez. \vorsitz\\
+Vorsitz des WPAF
+\end{document}
