@@ -1,0 +1,3 @@
+[submodule "Vorlagen"]
+	path = Vorlagen
+	url = git@github.com:wpafk-bonn/Vorlagen.git
