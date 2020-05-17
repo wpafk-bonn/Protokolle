@@ -6,5 +6,6 @@ Entsprechende Informationen sind im FID zu finden, und können beim Fachschaften
 ### Laufende Wahlprüfungen
 - Meteorologie (Vorlage an FK)
 - Agrarwissenschaften (unvollständig)
+- Geographie (ausstehend)
 - Politik und Soziologie (ausstehend)
 - Kulturanthroplogie (ausstehend)
